@@ -206,12 +206,6 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               >
                 Open dashboard <ArrowRight className="w-4 h-4" />
               </button>
-              <button
-                className="px-6 py-3 rounded-lg font-medium transition-all"
-                style={{ background: "white", color: "#6B4EAF", border: "1px solid #C4B5E8" }}
-              >
-                Watch demo
-              </button>
             </div>
           </div>
 
@@ -436,9 +430,6 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
           >
             Get started now — it's free <ArrowRight className="w-5 h-5" />
           </button>
-          <p className="text-sm mt-4 opacity-75" style={{ color: "#6B4EAF" }}>
-            No credit card required · 14-day free trial · Cancel anytime
-          </p>
         </div>
       </div>
 
